@@ -42,7 +42,7 @@ const App = () => {
                         </View>
                   </View>
 
-          <View onPress={() => this.props.navigation.navigate('Profile')}
+          <View 
               style={styles.button}>
                 <Text style={styles.buttonText}>Next  </Text>
                 <Icon
